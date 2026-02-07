@@ -2,31 +2,26 @@
 layout: home
 permalink: index.html
 
-# Please update this with your repository name and project title
-repository-name: eYY-3yp-project-template
-title: Project Template
+repository-name: e21-217-esp32-drone-swarm-testbed
+title: Programmable Indoor ESP32 Drone Swarm Testbed
 ---
 
-[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
-
-# Project Title
+# Programmable Indoor ESP32 Drone Swarm Testbed for Networking and Collision Avoidance
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/21/217, Ishan, [e21217@eng.pdn.ac.lk](mailto:name@email.com)
+-  E/21/180, Siyumi, [e21180@eng.pdn.ac.lk](mailto:name@email.com)
+-  E/21/009, Lisitha, [e21009@eng.pdn.ac.lk](mailto:name@email.com)
+-  E/21/156, Thinula, [e21156@eng.pdn.ac.lk](mailto:name@email.com)
 
-<!-- Image (photo/drawing of the final hardware) should be here -->
-
-<!-- This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/) -->
-
-<!-- ![Sample Image](./images/sample.png) -->
+<!-- Add final system image here -->
+<!-- ![System](./images/system.png) -->
 
 #### Table of Contents
 1. [Introduction](#introduction)
-2. [Solution Architecture](#solution-architecture )
+2. [Solution Architecture](#solution-architecture)
 3. [Hardware & Software Designs](#hardware-and-software-designs)
 4. [Testing](#testing)
 5. [Detailed budget](#detailed-budget)
@@ -34,40 +29,28 @@ title: Project Template
 7. [Links](#links)
 
 ## Introduction
-
-Description of the real world problem and solution, impact
-
+This project develops a low-cost programmable indoor drone swarm testbed using ESP32 mini drones to study real-world networking behavior and collision avoidance. The platform enables decentralized drone coordination, configurable communication conditions, and accurate indoor localization for controlled swarm experiments.
 
 ## Solution Architecture
-
-High level diagram + description
+High-level system architecture includes multiple ESP32 drones communicating via ESP-NOW, UWB-based indoor localization, and a central hub for experiment configuration, safety monitoring, and data logging.
 
 ## Hardware and Software Designs
-
-Detailed designs with many sub-sections
+Detailed hardware design of ESP32 drone platform, UWB localization modules, power systems, and onboard sensors, along with software modules for decentralized control, networking experiments, logging, and experiment configuration interfaces.
 
 ## Testing
-
-Testing done on hardware and software, detailed + summarized results
+Experimental validation includes indoor flight testing, localization accuracy evaluation, packet loss and delay experiments, and collision avoidance performance measurements under different network conditions.
 
 ## Detailed budget
 
-All items and costs
-
-| Item          | Quantity  | Unit Cost  | Total  |
-| ------------- |:---------:|:----------:|-------:|
-| Sample item   | 5         | 10 LKR     | 50 LKR |
+| Item | Quantity | Unit Cost | Total |
+|------|---------:|----------:|------:|
+| ESP32 drone modules | 10 | — | — |
+| UWB localization modules | 10 | — | — |
+| Batteries & chargers | — | — | — |
 
 ## Conclusion
-
-What was achieved, future developments, commercialization plans
+The project delivers an affordable indoor swarm research platform that enables real-world experimentation in distributed networking and collision avoidance, supporting future research, education, and advanced swarm algorithm development.
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
 
-[//]: # (Please refer this to learn more about Markdown syntax)
-[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
