@@ -1,34 +1,38 @@
 {
     "team": [
         {
-            "name": "ishan kaushalya",
+            "name": "Ishan Kaushalya",
             "email": "e21217@eng.pdn.ac.lk",
             "eNumber": "E/21/217"
         },
         {
-            "name": "lisitha",
-            "email": "e21217@eng.pdn.ac.lk",
+            "name": "Lisitha Abeysekera",
+            "email": "e21009@eng.pdn.ac.lk",
             "eNumber": "E/21/009"
         },
         {
-            "name": "Siyumi",
+            "name": "Siyumi Herath",
             "email": "e21180@eng.pdn.ac.lk",
             "eNumber": "E/21/180"
         },
         {
-            "name": "thinula",
+            "name": "Thinula Gunaratne",
             "email": "e21156@eng.pdn.ac.lk",
             "eNumber": "E/21/156"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Ms.Yasodha Vimukthi",
+            "email": "yasodhav@eng.pdn.ac.lk"
         },
         {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Kavindu Methpura",
+            "email": "e20254@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Nuwan Madushanka Jaliyagoda"
+            "email": "nuwanjaliyagoda@eng.pdn.ac.lk"
         }
     ],
     "tags": ["Web", "Embedded Systems"]
