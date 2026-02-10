@@ -1,39 +1,35 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+Drone swarms have emerged as an important research area in fields such as wireless communication, coordination, and collision avoidance. While many swarm algorithms are proposed and evaluated using simulation environments, real-world validation remains challenging due to unreliable wireless communication, sensor noise, and hardware variability.
 
-# eYY-3yp-project-template
+This project presents an affordable and programmable indoor drone swarm testbed designed to support experimental swarm research under realistic conditions. The system enables researchers to deploy multiple small drones in a fixed indoor arena, upload swarm logic, and observe real wireless interactions between drones.
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+This work is developed as part of the PERA Swarm initiative, which aims to advance practical, accessible, and reusable platforms for swarm robotics and multi-agent system research.
 
-### Enable GitHub Pages
+By combining UWB-based localization, real drone-to-drone communication, and structured analytics such as packet loss and near-collision detection, the testbed aims to bridge the gap between simulation-based studies and real-world swarm experimentation.
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
-
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
-
-### Special Configurations
-
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
 
 ```
 {
-  "title": "This is the title of the project",
+  "title": "Progammable Drone Swarm",
   "team": [
     {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "Siyumi Herath",
+      "email": "e21180@eng.pdn.ac.lk",
+      "eNumber": "E/21/180"
     },
     {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "Ishan Kaushalya",
+      "email": "e21217@eng.pdn.ac.lk",
+      "eNumber": "E/21/217"
     },
     {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
+      "name": "Lisitha Abeysekara",
+      "email": "e21009@eng.pdn.ac.lk",
+      "eNumber": "E/21/009"
+    },
+    {
+      "name": "Thinula ",
+      "email": "e21156@eng.pdn.ac.lk",
+      "eNumber": "E/21/156"
     }
   ],
   "supervisors": [
